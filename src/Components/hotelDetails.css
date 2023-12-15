@@ -1,0 +1,190 @@
+.right>div:nth-child(2)>p {
+    text-align: justify;
+}
+
+.right>div:nth-child(4)>ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.right>div:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.right>div:nth-child(2)>div>img {
+    width: 100%;
+    object-fit: fill;
+    height: 150px;
+}
+
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.reservation>form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 90%;
+    margin: auto;
+    background-color: #f1f1f1;
+    padding: 20px; */
+}
+
+.reservation>form>input {
+    padding: 12px;
+}
+
+.reservation>form>select {
+    padding: 12px;
+}
+
+.reservation>form>div {
+    display: flex;
+    justify-content: center;
+}
+
+.reservation>form>div>button {
+    background-color: #b5876d;
+    font-weight: 700;
+    color: white;
+}
+
+.contact {
+    width: 90%;
+    margin: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.phoneEmail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+}
+
+.phoneEmail>div:nth-child(2)>p {
+    margin-bottom: 5px;
+}
+
+.popular>div>div:nth-child(2)>p:nth-child(2) {
+    color: #969697;
+    font-size: 14px;
+}
+
+.popular {
+    width: 90%;
+    margin: auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.fa-phone {
+    color: #b5876d;
+}
+
+.fa-phone:hover {
+    color: black;
+}
+
+.fa-envelope {
+    color: #b5876d;
+}
+
+.fa-envelope:hover {
+    color: black;
+}
+
+
+.room-details-title {
+    line-height: 17px;
+    position: relative;
+}
+
+.room-details-title::after {
+    bottom: -7px;
+}
+
+.room-details-title::after {
+    background: #b5876d none repeat scroll 0 0;
+    bottom: -10px;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 90px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.rightIcon {
+    padding-right: 25px;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-xmark {
+    color: red;
+}
+
+.cost {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    height: 100px;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 170px;
+    color: white;
+}
+
+.cost > h2,p{
+    margin: 5px;
+}
+
+.client-carousel {
+    margin:3em 0 ;
+}
+
+
+.bg {
+    background-image: url(https://htmldemo.net/oestin/oestin/img/bg/3.jpg);
+    width: 100%;
+    height: 470px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+
+
+.bg-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 270px;
+}
+
+.toHome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
