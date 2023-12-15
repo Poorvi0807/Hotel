@@ -31,10 +31,10 @@ export const About = () => {
           ABOUT US
         </Text>
         <Text fontSize="md">
-        Welcome to Lotus Haven, where tranquility and luxury converge to create an unforgettable stay. Nestled amidst lush surroundings and inspired by the symbolic beauty of the lotus flower, our hotel is a serene oasis designed to elevate your senses.
+        Welcome to Lotus Heaven, where tranquility and luxury converge to create an unforgettable stay. Nestled amidst lush surroundings and inspired by the symbolic beauty of the lotus flower, our hotel is a serene oasis designed to elevate your senses.
           <br/>
           <br/>
-          As you step into Lotus Haven, you are greeted by an ambiance of calm sophistication. The lobby, adorned with subtle hues and floral accents,
+          As you step into Lotus Heaven, you are greeted by an ambiance of calm sophistication. The lobby, adorned with subtle hues and floral accents,
           <br/>
           <br/>
           sets the tone for a peaceful retreat. Our attentive staff, committed to delivering impeccable service, ensures that your every need is met with a warm smile.
